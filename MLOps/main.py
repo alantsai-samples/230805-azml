@@ -30,7 +30,7 @@ def main():
     ###################
     print(" ".join(f"{k}={v}" for k, v in vars(args).items()))
 
-    print("input data:", args.data)
+    print("123132123321 input data:", args.data)
     
     credit_df = pd.read_csv(args.data, header=1, index_col=0)
 
